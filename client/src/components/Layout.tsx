@@ -31,7 +31,7 @@ function Header() {
 
   return (
     <header
-      className="fixed top-0 left-0 right-0 z-50 bg-[#fefefe] shadow-md"
+      className="fixed top-0 left-0 right-0 z-50 bg-[#d3d3d5] shadow-md"
     >
       <div className="container flex items-center h-20 lg:h-24">
         {/* Logo */}
