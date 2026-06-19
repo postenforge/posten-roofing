@@ -107,7 +107,7 @@ export default function Home() {
         <div className="container relative z-10 pt-24 pb-16">
           <div className="max-w-2xl">
             <p className="text-[oklch(0.65_0.14_60)] font-semibold text-sm uppercase tracking-wider mb-4">
-              Sun Prairie & Madison, Wisconsin
+              Serving Sun Prairie, Wisconsin & the Madison Metro
             </p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl text-white leading-tight mb-6">
               Not Sure If Your Roof Needs Repair or Replacement?
