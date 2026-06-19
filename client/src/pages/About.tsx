@@ -102,7 +102,7 @@ export default function About() {
               <img
                 src={COUPLE_IMG}
                 alt="Matt and Jennifer Posten"
-                className="rounded-xl shadow-md w-full h-64 object-cover object-top"
+                className="rounded-xl shadow-md w-full aspect-[4/3] object-cover object-top"
               />
               <p className="text-sm text-muted-foreground mt-2 text-center">Matt & Jennifer Posten</p>
             </div>
@@ -111,7 +111,7 @@ export default function About() {
               <img
                 src={SON_IMG}
                 alt="Braden Posten"
-                className="rounded-xl shadow-md w-full h-64 object-cover object-top"
+                className="rounded-xl shadow-md w-full aspect-[4/3] object-cover object-top"
               />
               <p className="text-sm text-muted-foreground mt-2 text-center">Braden</p>
             </div>
@@ -120,7 +120,7 @@ export default function About() {
               <img
                 src={DAUGHTER_DOG_IMG}
                 alt="Elaina Posten hiking with Maverick the Bernedoodle"
-                className="rounded-xl shadow-md w-full h-64 object-cover object-top"
+                className="rounded-xl shadow-md w-full aspect-[4/3] object-cover object-top"
               />
               <p className="text-sm text-muted-foreground mt-2 text-center">Elaina & Maverick</p>
             </div>
@@ -129,7 +129,7 @@ export default function About() {
               <img
                 src={COCONUT_IMG}
                 alt="Coconut the Bichon Frise"
-                className="rounded-xl shadow-md w-full h-64 object-cover object-center"
+                className="rounded-xl shadow-md w-full aspect-[4/3] object-cover object-center"
               />
               <p className="text-sm text-muted-foreground mt-2 text-center">Coconut</p>
             </div>
@@ -138,7 +138,7 @@ export default function About() {
               <img
                 src={RUTHY_IMG}
                 alt="Ruthy the Bernedoodle relaxing on the couch"
-                className="rounded-xl shadow-md w-full h-64 object-cover object-top"
+                className="rounded-xl shadow-md w-full aspect-[4/3] object-cover object-top"
               />
               <p className="text-sm text-muted-foreground mt-2 text-center">Ruthy</p>
             </div>
@@ -147,7 +147,7 @@ export default function About() {
               <img
                 src={BEAR_IMG}
                 alt="Bear the Bernedoodle"
-                className="rounded-xl shadow-md w-full h-64 object-cover object-top"
+                className="rounded-xl shadow-md w-full aspect-[4/3] object-cover object-top"
               />
               <p className="text-sm text-muted-foreground mt-2 text-center">Bear</p>
             </div>
