@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "wouter";
 import { Phone, Menu, X, ChevronDown } from "lucide-react";
 
-const LOGO_URL = "/manus-storage/posten-logo-new_3cb74251.png";
+const LOGO_URL = "/manus-storage/posten-logo-nobg_0aff8d52.png";
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -44,10 +44,10 @@ function Header() {
           : "bg-transparent"
       }`}
     >
-      <div className="container flex items-center justify-between h-18 lg:h-22">
+      <div className="container flex items-center justify-between h-20 lg:h-24">
         {/* Logo */}
         <Link href="/" className="flex items-center">
-          <img src={LOGO_URL} alt="Posten Roofing" className="h-14 lg:h-16 w-auto" />
+          <img src={LOGO_URL} alt="Posten Roofing" className="h-16 lg:h-20 w-auto" />
         </Link>
 
         {/* Desktop Nav */}
