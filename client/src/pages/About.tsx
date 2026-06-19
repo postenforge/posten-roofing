@@ -3,7 +3,7 @@ import { ArrowRight, CheckCircle, Heart } from "lucide-react";
 import SEO from "@/components/SEO";
 
 const PROFILE_IMG = "/manus-storage/profile-pic_9f76902a.jpg";
-const COUPLE_IMG = "/manus-storage/family-couple_90724bc6.jpg";
+const COUPLE_IMG = "/manus-storage/couple-cropped_5bb5b62b.jpg";
 const SON_IMG = "/manus-storage/family-son_a61fab77.jpg";
 const DAUGHTER_DOG_IMG = "/manus-storage/family-dog3_39ca85b7.jpg";
 const COCONUT_IMG = "/manus-storage/family-dog1_a3c2e8ce.jpg";
@@ -102,7 +102,7 @@ export default function About() {
               <img
                 src={COUPLE_IMG}
                 alt="Matt and Jennifer Posten"
-                className="rounded-xl shadow-md w-full aspect-[4/3] object-cover object-bottom"
+                className="rounded-xl shadow-md w-full aspect-[4/3] object-cover object-center"
               />
               <p className="text-sm text-muted-foreground mt-2 text-center">Matt & Jennifer Posten</p>
             </div>
@@ -120,7 +120,7 @@ export default function About() {
               <img
                 src={DAUGHTER_DOG_IMG}
                 alt="Elaina Posten hiking with Maverick the Bernedoodle"
-                className="rounded-xl shadow-md w-full aspect-[4/3] object-cover object-top"
+                className="rounded-xl shadow-md w-full aspect-[4/3] object-cover object-[center_60%]"
               />
               <p className="text-sm text-muted-foreground mt-2 text-center">Elaina & Maverick</p>
             </div>
