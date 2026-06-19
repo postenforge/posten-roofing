@@ -7,8 +7,8 @@ const COUPLE_IMG = "/manus-storage/family-couple_90724bc6.jpg";
 const SON_IMG = "/manus-storage/family-son_a61fab77.jpg";
 const DAUGHTER_DOG_IMG = "/manus-storage/family-dog3_39ca85b7.jpg";
 const COCONUT_IMG = "/manus-storage/family-dog1_a3c2e8ce.jpg";
-const BERNEDOODLE_COUCH_IMG = "/manus-storage/family-dog2_73b9b218.jpg";
-const BERNEDOODLE_CAR_IMG = "/manus-storage/family-bernedoodle_f392f069.jpg";
+const RUTHY_IMG = "/manus-storage/family-dog2_73b9b218.jpg";
+const BEAR_IMG = "/manus-storage/family-bear-cropped_b5ae18c8.jpg";
 
 export default function About() {
   return (
@@ -104,6 +104,7 @@ export default function About() {
                 alt="Matt and Jennifer Posten"
                 className="rounded-xl shadow-md w-full h-full object-cover"
               />
+              <p className="text-sm text-muted-foreground mt-2 text-center">Matt & Jennifer Posten</p>
             </div>
             {/* Braden */}
             <div>
@@ -114,14 +115,14 @@ export default function About() {
               />
               <p className="text-sm text-muted-foreground mt-2 text-center">Braden</p>
             </div>
-            {/* Elaina with dog */}
+            {/* Elaina with Maverick */}
             <div>
               <img
                 src={DAUGHTER_DOG_IMG}
-                alt="Elaina Posten hiking with one of the Bernedoodles"
+                alt="Elaina Posten hiking with Maverick the Bernedoodle"
                 className="rounded-xl shadow-md w-full h-64 object-cover object-top"
               />
-              <p className="text-sm text-muted-foreground mt-2 text-center">Elaina</p>
+              <p className="text-sm text-muted-foreground mt-2 text-center">Elaina & Maverick</p>
             </div>
             {/* Coconut */}
             <div>
@@ -132,23 +133,23 @@ export default function About() {
               />
               <p className="text-sm text-muted-foreground mt-2 text-center">Coconut</p>
             </div>
-            {/* Bernedoodle on couch */}
+            {/* Ruthy on couch */}
             <div>
               <img
-                src={BERNEDOODLE_COUCH_IMG}
-                alt="One of the Bernedoodles relaxing on the couch"
-                className="rounded-xl shadow-md w-full h-64 object-cover object-top"
-              />
-              <p className="text-sm text-muted-foreground mt-2 text-center">Bear</p>
-            </div>
-            {/* Bernedoodle in car */}
-            <div className="col-span-2 md:col-span-1">
-              <img
-                src={BERNEDOODLE_CAR_IMG}
-                alt="Ruthy the Bernedoodle"
+                src={RUTHY_IMG}
+                alt="Ruthy the Bernedoodle relaxing on the couch"
                 className="rounded-xl shadow-md w-full h-64 object-cover object-top"
               />
               <p className="text-sm text-muted-foreground mt-2 text-center">Ruthy</p>
+            </div>
+            {/* Bear */}
+            <div className="col-span-2 md:col-span-1">
+              <img
+                src={BEAR_IMG}
+                alt="Bear the Bernedoodle"
+                className="rounded-xl shadow-md w-full h-64 object-cover object-top"
+              />
+              <p className="text-sm text-muted-foreground mt-2 text-center">Bear</p>
             </div>
           </div>
         </div>
