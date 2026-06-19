@@ -102,7 +102,7 @@ export default function About() {
               <img
                 src={COUPLE_IMG}
                 alt="Matt and Jennifer Posten"
-                className="rounded-xl shadow-md w-full aspect-[4/3] object-cover object-top"
+                className="rounded-xl shadow-md w-full aspect-[4/3] object-cover object-bottom"
               />
               <p className="text-sm text-muted-foreground mt-2 text-center">Matt & Jennifer Posten</p>
             </div>
@@ -143,7 +143,7 @@ export default function About() {
               <p className="text-sm text-muted-foreground mt-2 text-center">Ruthy</p>
             </div>
             {/* Bear */}
-            <div className="col-span-2 md:col-span-1">
+            <div>
               <img
                 src={BEAR_IMG}
                 alt="Bear the Bernedoodle"
