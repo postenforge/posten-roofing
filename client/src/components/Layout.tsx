@@ -31,16 +31,16 @@ function Header() {
 
   return (
     <header
-      className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md"
+      className="fixed top-0 left-0 right-0 z-50 bg-[#fefefe] shadow-md"
     >
-      <div className="container flex items-center justify-between h-20 lg:h-24">
+      <div className="container flex items-center h-20 lg:h-24">
         {/* Logo */}
-        <Link href="/" className="flex items-center">
+        <Link href="/" className="flex items-center shrink-0">
           <img src={LOGO_URL} alt="Posten Roofing" className="h-18 lg:h-22 w-auto" />
         </Link>
 
-        {/* Desktop Nav */}
-        <nav className="hidden lg:flex items-center gap-8">
+        {/* Desktop Nav + CTA — all to the right */}
+        <nav className="hidden lg:flex items-center gap-7 ml-auto">
           {navLinks.map((item) =>
             item.children ? (
               <div key={item.label} className="relative group">
@@ -74,10 +74,8 @@ function Header() {
               </Link>
             )
           )}
-        </nav>
-
-        {/* Desktop CTA */}
-        <div className="hidden lg:flex items-center gap-3">
+          {/* Divider */}
+          <div className="w-px h-6 bg-border mx-1" />
           <a
             href="tel:+1XXXXXXXXXX"
             className="flex items-center gap-2 font-semibold text-sm text-foreground"
@@ -91,12 +89,12 @@ function Header() {
           >
             Free Inspection
           </Link>
-        </div>
+        </nav>
 
         {/* Mobile Menu Button */}
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
-          className="lg:hidden p-2 text-foreground"
+          className="lg:hidden p-2 text-foreground ml-auto"
         >
           {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
         </button>
