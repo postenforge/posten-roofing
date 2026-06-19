@@ -78,7 +78,7 @@ function TriageTool() {
                 <ArrowRight className="w-4 h-4" />
               </Link>
               <a
-                href="tel:+1XXXXXXXXXX"
+                href="tel:+16082175056"
                 className="inline-flex items-center justify-center gap-2 bg-[oklch(0.30_0.07_250)] hover:bg-[oklch(0.25_0.07_250)] text-white font-semibold px-6 py-3 rounded-md transition-all duration-150"
               >
                 <Phone className="w-4 h-4" />
@@ -124,7 +124,7 @@ export default function Home() {
                 <ArrowRight className="w-5 h-5" />
               </Link>
               <a
-                href="tel:+1XXXXXXXXXX"
+                href="tel:+16082175056"
                 className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white font-semibold text-lg px-8 py-4 rounded-md border border-white/20 transition-all duration-150"
               >
                 <Phone className="w-5 h-5" />
@@ -413,11 +413,11 @@ export default function Home() {
               <ArrowRight className="w-5 h-5" />
             </Link>
             <a
-              href="tel:+1XXXXXXXXXX"
+              href="tel:+16082175056"
               className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold text-lg px-8 py-4 rounded-md border border-white/30 transition-all duration-150"
             >
               <Phone className="w-5 h-5" />
-              (XXX) XXX-XXXX
+              (608) 217-5056
             </a>
           </div>
         </div>

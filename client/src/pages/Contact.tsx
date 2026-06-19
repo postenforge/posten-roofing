@@ -257,9 +257,9 @@ export default function Contact() {
               <div className="bg-white rounded-xl p-6 border border-border">
                 <h3 className="font-bold text-foreground mb-4 font-sans">Quick Contact</h3>
                 <div className="space-y-4">
-                  <a href="tel:+1XXXXXXXXXX" className="flex items-center gap-3 text-foreground hover:text-[oklch(0.65_0.14_60)] transition-colors">
+                  <a href="tel:+16082175056" className="flex items-center gap-3 text-foreground hover:text-[oklch(0.65_0.14_60)] transition-colors">
                     <Phone className="w-5 h-5 text-[oklch(0.65_0.14_60)]" />
-                    <span className="font-medium">(XXX) XXX-XXXX</span>
+                    <span className="font-medium">(608) 217-5056</span>
                   </a>
                   <a href="mailto:info@postenroofing.com" className="flex items-center gap-3 text-foreground hover:text-[oklch(0.65_0.14_60)] transition-colors">
                     <Mail className="w-5 h-5 text-[oklch(0.65_0.14_60)]" />

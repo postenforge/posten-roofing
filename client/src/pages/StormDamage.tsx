@@ -51,7 +51,7 @@ export default function StormDamage() {
                   Request Storm Inspection <ArrowRight className="w-4 h-4" />
                 </Link>
                 <a
-                  href="tel:+1XXXXXXXXXX"
+                  href="tel:+16082175056"
                   className="inline-flex items-center gap-2 bg-[oklch(0.30_0.07_250)] hover:bg-[oklch(0.25_0.07_250)] text-white font-semibold px-6 py-3 rounded-md transition-all"
                 >
                   <Phone className="w-4 h-4" /> Call Now
@@ -173,7 +173,7 @@ export default function StormDamage() {
               Request Storm Inspection <ArrowRight className="w-5 h-5" />
             </Link>
             <a
-              href="tel:+1XXXXXXXXXX"
+              href="tel:+16082175056"
               className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold text-lg px-8 py-4 rounded-md border border-white/30 transition-all"
             >
               <Phone className="w-5 h-5" /> Call Now

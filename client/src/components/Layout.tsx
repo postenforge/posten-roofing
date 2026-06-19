@@ -77,11 +77,11 @@ function Header() {
           {/* Divider */}
           <div className="w-px h-6 bg-border mx-1" />
           <a
-            href="tel:+1XXXXXXXXXX"
+            href="tel:+16082175056"
             className="flex items-center gap-2 font-semibold text-sm text-foreground"
           >
             <Phone className="w-4 h-4" />
-            (XXX) XXX-XXXX
+            (608) 217-5056
           </a>
           <Link
             href="/contact"
@@ -140,7 +140,7 @@ function Header() {
             )}
             <div className="mt-3 pt-3 border-t border-border flex flex-col gap-2">
               <a
-                href="tel:+1XXXXXXXXXX"
+                href="tel:+16082175056"
                 className="flex items-center justify-center gap-2 bg-[oklch(0.30_0.07_250)] text-white font-semibold py-3 rounded-md"
               >
                 <Phone className="w-4 h-4" />
@@ -207,7 +207,7 @@ function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-[oklch(0.65_0.14_60)]" />
-                <a href="tel:+1XXXXXXXXXX" className="hover:text-white transition-colors">(XXX) XXX-XXXX</a>
+                <a href="tel:+16082175056" className="hover:text-white transition-colors">(608) 217-5056</a>
               </li>
               <li className="text-white/60 text-xs mt-4">
                 Service-area business serving Dane County and nearby communities within ~35 minutes of Sun Prairie, WI.
@@ -244,7 +244,7 @@ function MobileStickyBar() {
   return (
     <div className="fixed bottom-0 left-0 right-0 z-50 lg:hidden bg-white border-t border-border shadow-[0_-4px_20px_rgba(0,0,0,0.1)] p-3 flex gap-2">
       <a
-        href="tel:+1XXXXXXXXXX"
+        href="tel:+16082175056"
         className="flex-1 flex items-center justify-center gap-2 bg-[oklch(0.30_0.07_250)] text-white font-semibold py-3 rounded-md text-sm"
       >
         <Phone className="w-4 h-4" />
