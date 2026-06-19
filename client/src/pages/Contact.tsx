@@ -24,12 +24,46 @@ export default function Contact() {
     honeypot: "",
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [submitting, setSubmitting] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (formData.honeypot) return; // spam check
-    // TODO: Connect to form backend (Resend, SendGrid, HubSpot, Airtable, etc.)
-    setSubmitted(true);
-    toast.success("Request submitted! We'll be in touch soon.");
+    setSubmitting(true);
+
+    try {
+      const response = await fetch("https://formspree.io/f/xdavqwlj", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          firstName: formData.firstName,
+          lastName: formData.lastName,
+          phone: formData.phone,
+          email: formData.email,
+          address: formData.address,
+          city: formData.city,
+          zip: formData.zip,
+          service: formData.service,
+          urgent: formData.urgent,
+          homeowner: formData.homeowner,
+          insuranceContacted: formData.insuranceContacted,
+          contactMethod: formData.contactMethod,
+          timeOfDay: formData.timeOfDay,
+          message: formData.message,
+        }),
+      });
+
+      if (response.ok) {
+        setSubmitted(true);
+        toast.success("Request submitted! We'll be in touch soon.");
+      } else {
+        toast.error("Something went wrong. Please try again or call us directly.");
+      }
+    } catch {
+      toast.error("Something went wrong. Please try again or call us directly.");
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   const updateField = (field: string, value: string | boolean) => {
@@ -263,9 +297,10 @@ export default function Contact() {
 
                 <button
                   type="submit"
-                  className="w-full bg-[oklch(0.65_0.14_60)] hover:bg-[oklch(0.58_0.14_60)] text-white font-bold py-4 rounded-md transition-all duration-150 active:scale-[0.98] text-lg"
+                  disabled={submitting}
+                  className="w-full bg-[oklch(0.65_0.14_60)] hover:bg-[oklch(0.58_0.14_60)] text-white font-bold py-4 rounded-md transition-all duration-150 active:scale-[0.98] text-lg disabled:opacity-60 disabled:cursor-not-allowed"
                 >
-                  Request Free Roof Inspection
+                  {submitting ? "Submitting..." : "Request Free Roof Inspection"}
                 </button>
               </form>
             </div>
