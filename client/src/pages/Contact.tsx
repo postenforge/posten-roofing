@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Phone, Mail, Clock, CheckCircle } from "lucide-react";
 import { toast } from "sonner";
+import SEO from "@/components/SEO";
 
 export default function Contact() {
   const [submitted, setSubmitted] = useState(false);
@@ -63,6 +64,11 @@ export default function Contact() {
 
   return (
     <div>
+      <SEO
+        title="Contact Posten Roofing | Free Roof Inspection in Sun Prairie & Madison, WI"
+        description="Request a free roof inspection from Posten Roofing. Call (608) 217-5056 or fill out our form. Serving Sun Prairie, Madison, and Dane County, Wisconsin."
+        canonical="https://postenroofing.com/contact"
+      />
       {/* Hero */}
       <section className="bg-[oklch(0.20_0.015_250)] pt-28 pb-16">
         <div className="container">

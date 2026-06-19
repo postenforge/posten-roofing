@@ -1,11 +1,17 @@
 import { Link } from "wouter";
 import { ArrowRight, CheckCircle } from "lucide-react";
+import SEO from "@/components/SEO";
 
 const INSPECTION_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663502408391/74KQnuSq8LqDRTPc7CwkAx/posten-inspection-UsK9uo47qb7LeJgt325783.webp";
 
 export default function About() {
   return (
     <div>
+      <SEO
+        title="About Posten Roofing | Family Roofing Background, Wisconsin Service"
+        description="Posten Roofing is built on hands-on experience from a family roofing company. We serve Sun Prairie, Madison, and Dane County with honest inspections and quality workmanship."
+        canonical="https://postenroofing.com/about"
+      />
       {/* Hero */}
       <section className="bg-[oklch(0.20_0.015_250)] pt-28 pb-16">
         <div className="container">

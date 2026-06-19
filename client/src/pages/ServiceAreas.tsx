@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import { ArrowRight, MapPin } from "lucide-react";
+import SEO from "@/components/SEO";
 
 const NEIGHBORHOOD_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663502408391/74KQnuSq8LqDRTPc7CwkAx/posten-wisconsin-home-7oHFGdYUiax7D3ka6GgMmJ.webp";
 
@@ -25,6 +26,11 @@ const additionalAreas = [
 export default function ServiceAreas() {
   return (
     <div>
+      <SEO
+        title="Service Areas | Posten Roofing - Sun Prairie, Madison, Dane County WI"
+        description="Posten Roofing serves Sun Prairie, Madison, DeForest, Waunakee, Cottage Grove, Windsor, Marshall, and surrounding Dane County communities. Free roof inspections within 35-40 minutes of Sun Prairie."
+        canonical="https://postenroofing.com/service-areas"
+      />
       {/* Hero */}
       <section className="relative pt-28 pb-16">
         <div className="absolute inset-0">

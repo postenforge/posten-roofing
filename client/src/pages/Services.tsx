@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import { ArrowRight, Wrench, HomeIcon, CloudRain, Shield, Droplets, FileCheck, Wind, Settings } from "lucide-react";
+import SEO from "@/components/SEO";
 
 const HERO_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663502408391/74KQnuSq8LqDRTPc7CwkAx/posten-hero-roof-9ohrRJktbi5872z2iuTsQg.webp";
 
@@ -57,6 +58,11 @@ const allServices = [
 export default function Services() {
   return (
     <div>
+      <SEO
+        title="Roofing Services | Repair, Replacement & Storm Damage - Posten Roofing, Sun Prairie WI"
+        description="Residential roofing services in Sun Prairie and Madison, WI. Roof repair, full replacement, storm damage inspection, hail and wind damage, leak repair, and insurance documentation."
+        canonical="https://postenroofing.com/services"
+      />
       {/* Hero */}
       <section className="relative pt-28 pb-16">
         <div className="absolute inset-0">

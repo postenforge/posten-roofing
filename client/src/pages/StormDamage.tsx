@@ -1,11 +1,17 @@
 import { Link } from "wouter";
 import { ArrowRight, CheckCircle, CloudRain, Wind, AlertTriangle, Camera, Shield, Phone } from "lucide-react";
+import SEO from "@/components/SEO";
 
 const STORM_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663502408391/74KQnuSq8LqDRTPc7CwkAx/posten-storm-damage-d2zCF2VBV8gJTptZPvwbe5.webp";
 
 export default function StormDamage() {
   return (
     <div>
+      <SEO
+        title="Storm Damage Roof Inspection | Hail & Wind Damage - Posten Roofing, Sun Prairie WI"
+        description="Free storm damage roof inspection in Sun Prairie, Madison, and Dane County. Hail damage, wind damage, and severe weather assessment with photo documentation for insurance claims."
+        canonical="https://postenroofing.com/storm-damage"
+      />
       {/* Hero */}
       <section className="bg-[oklch(0.20_0.015_250)] pt-28 pb-16">
         <div className="container">

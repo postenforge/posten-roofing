@@ -1,6 +1,7 @@
 import { Link } from "wouter";
 import { Phone, Shield, Camera, CloudRain, Wrench, Home as HomeIcon, FileCheck, Droplets, Wind, CheckCircle, ArrowRight } from "lucide-react";
 import { useState } from "react";
+import SEO from "@/components/SEO";
 
 const HERO_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663502408391/74KQnuSq8LqDRTPc7CwkAx/posten-hero-roof-9ohrRJktbi5872z2iuTsQg.webp";
 const INSPECTION_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663502408391/74KQnuSq8LqDRTPc7CwkAx/posten-inspection-UsK9uo47qb7LeJgt325783.webp";
@@ -98,6 +99,11 @@ function TriageTool() {
 export default function Home() {
   return (
     <div>
+      <SEO
+        title="Posten Roofing | Roof Repair & Replacement in Sun Prairie & Madison, WI"
+        description="Free roof inspections with honest answers. Posten Roofing serves Sun Prairie, Madison, and Dane County with repairs, replacements, storm damage inspections, and insurance documentation."
+        canonical="https://postenroofing.com/"
+      />
       {/* Hero */}
       <section className="relative min-h-[90vh] flex items-center">
         <div className="absolute inset-0">

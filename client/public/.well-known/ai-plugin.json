@@ -1,0 +1,11 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Posten Roofing",
+  "name_for_model": "posten_roofing",
+  "description_for_human": "Residential roofing company in Sun Prairie & Madison, Wisconsin. Free inspections, storm damage, repairs, replacements.",
+  "description_for_model": "Posten Roofing is a residential roofing contractor based in Sun Prairie, Wisconsin, serving the Madison metro and Dane County area. They offer free roof inspections, storm damage assessment, roof repair, roof replacement, and insurance documentation support. Phone: (608) 217-5056. They take a repair-first approach and do not pressure homeowners into unnecessary replacements.",
+  "auth": { "type": "none" },
+  "api": { "type": "none" },
+  "contact_email": "info@postenroofing.com",
+  "legal_info_url": "https://postenroofing.com/"
+}

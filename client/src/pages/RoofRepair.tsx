@@ -1,11 +1,17 @@
 import { Link } from "wouter";
 import { ArrowRight, CheckCircle, Wrench, Droplets, AlertTriangle } from "lucide-react";
+import SEO from "@/components/SEO";
 
 const STORM_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663502408391/74KQnuSq8LqDRTPc7CwkAx/posten-storm-damage-d2zCF2VBV8gJTptZPvwbe5.webp";
 
 export default function RoofRepair() {
   return (
     <div>
+      <SEO
+        title="Roof Repair in Sun Prairie & Madison, WI | Posten Roofing"
+        description="Roof repair services for Sun Prairie, Madison, and Dane County. Missing shingles, leaks, flashing, pipe boots, and storm damage repairs. Free inspection to assess if repair or replacement is right."
+        canonical="https://postenroofing.com/roof-repair"
+      />
       {/* Hero */}
       <section className="bg-[oklch(0.20_0.015_250)] pt-28 pb-16">
         <div className="container">
