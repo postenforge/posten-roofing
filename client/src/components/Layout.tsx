@@ -91,10 +91,19 @@ function Header() {
           </Link>
         </nav>
 
+        {/* Mobile Phone Number */}
+        <a
+          href="tel:+16082175056"
+          className="lg:hidden flex items-center gap-1.5 ml-auto mr-2 font-semibold text-sm text-foreground"
+        >
+          <Phone className="w-4 h-4" />
+          <span>(608) 217-5056</span>
+        </a>
+
         {/* Mobile Menu Button */}
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
-          className="lg:hidden p-2 text-foreground ml-auto"
+          className="lg:hidden p-2 text-foreground"
         >
           {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
         </button>
