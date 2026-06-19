@@ -3,6 +3,12 @@ import { ArrowRight, CheckCircle, Heart } from "lucide-react";
 import SEO from "@/components/SEO";
 
 const PROFILE_IMG = "/manus-storage/profile-pic_9f76902a.jpg";
+const COUPLE_IMG = "/manus-storage/family-couple_90724bc6.jpg";
+const SON_IMG = "/manus-storage/family-son_a61fab77.jpg";
+const DAUGHTER_DOG_IMG = "/manus-storage/family-dog3_39ca85b7.jpg";
+const COCONUT_IMG = "/manus-storage/family-dog1_a3c2e8ce.jpg";
+const BERNEDOODLE_COUCH_IMG = "/manus-storage/family-dog2_73b9b218.jpg";
+const BERNEDOODLE_CAR_IMG = "/manus-storage/family-bernedoodle_f392f069.jpg";
 
 export default function About() {
   return (
@@ -79,8 +85,77 @@ export default function About() {
         </div>
       </section>
 
+      {/* Family Gallery */}
+      <section className="py-20 bg-[oklch(0.97_0.003_250)]">
+        <div className="container">
+          <h2 className="text-3xl md:text-4xl text-center text-[oklch(0.20_0.015_250)] mb-4 gold-underline-center">
+            The Family Behind the Business
+          </h2>
+          <p className="text-center text-muted-foreground text-lg mb-12 max-w-2xl mx-auto">
+            When I'm not on a roof, I'm with my family. They're the reason I do what I do.
+          </p>
+
+          {/* Photo Grid */}
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-5xl mx-auto">
+            {/* Large couple photo */}
+            <div className="col-span-2 md:col-span-1 md:row-span-2">
+              <img
+                src={COUPLE_IMG}
+                alt="Matt and Jennifer Posten"
+                className="rounded-xl shadow-md w-full h-full object-cover"
+              />
+            </div>
+            {/* Braden */}
+            <div>
+              <img
+                src={SON_IMG}
+                alt="Braden Posten"
+                className="rounded-xl shadow-md w-full h-64 object-cover object-top"
+              />
+              <p className="text-sm text-muted-foreground mt-2 text-center">Braden</p>
+            </div>
+            {/* Elaina with dog */}
+            <div>
+              <img
+                src={DAUGHTER_DOG_IMG}
+                alt="Elaina Posten hiking with one of the Bernedoodles"
+                className="rounded-xl shadow-md w-full h-64 object-cover object-top"
+              />
+              <p className="text-sm text-muted-foreground mt-2 text-center">Elaina</p>
+            </div>
+            {/* Coconut */}
+            <div>
+              <img
+                src={COCONUT_IMG}
+                alt="Coconut the Bichon Frise"
+                className="rounded-xl shadow-md w-full h-64 object-cover object-center"
+              />
+              <p className="text-sm text-muted-foreground mt-2 text-center">Coconut</p>
+            </div>
+            {/* Bernedoodle on couch */}
+            <div>
+              <img
+                src={BERNEDOODLE_COUCH_IMG}
+                alt="One of the Bernedoodles relaxing on the couch"
+                className="rounded-xl shadow-md w-full h-64 object-cover object-top"
+              />
+              <p className="text-sm text-muted-foreground mt-2 text-center">Bear</p>
+            </div>
+            {/* Bernedoodle in car */}
+            <div className="col-span-2 md:col-span-1">
+              <img
+                src={BERNEDOODLE_CAR_IMG}
+                alt="Ruthy the Bernedoodle"
+                className="rounded-xl shadow-md w-full h-64 object-cover object-top"
+              />
+              <p className="text-sm text-muted-foreground mt-2 text-center">Ruthy</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Values */}
-      <section className="py-20 bg-muted/30">
+      <section className="py-20 bg-white">
         <div className="container max-w-4xl">
           <h2 className="text-3xl md:text-4xl text-center text-[oklch(0.20_0.015_250)] mb-12 gold-underline-center">
             How I Run This Business
