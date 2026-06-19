@@ -4,11 +4,11 @@ import { ArrowRight, MapPin } from "lucide-react";
 const NEIGHBORHOOD_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663502408391/74KQnuSq8LqDRTPc7CwkAx/posten-wisconsin-home-7oHFGdYUiax7D3ka6GgMmJ.webp";
 
 const primaryAreas = [
-  { name: "Sun Prairie", desc: "Our home base. We know Sun Prairie roofs — the neighborhoods, the weather patterns, and the common issues homeowners face here." },
+  { name: "Sun Prairie", desc: "Our home base. We know Sun Prairie roofs - the neighborhoods, the weather patterns, and the common issues homeowners face here." },
   { name: "Madison", desc: "Serving Madison's diverse housing stock from older homes near the isthmus to newer construction on the edges." },
   { name: "DeForest", desc: "Growing community with a mix of newer builds and established homes. We're right down the road." },
   { name: "Waunakee", desc: "Quality homes that deserve quality roofing care. We serve Waunakee and surrounding areas regularly." },
-  { name: "Cottage Grove", desc: "East side of Dane County — close to us and well within our primary service area." },
+  { name: "Cottage Grove", desc: "East side of Dane County - close to us and well within our primary service area." },
   { name: "Windsor", desc: "Right between Sun Prairie and DeForest. We're in this area frequently." },
   { name: "Marshall", desc: "Small community, big commitment to doing right by our neighbors here." },
 ];
@@ -17,7 +17,7 @@ const additionalAreas = [
   { name: "Columbus", desc: "Just north of our primary area. We're happy to help Columbus homeowners with roofing needs." },
   { name: "Beaver Dam", desc: "A bit further out but within reach for the right projects." },
   { name: "Lake Mills", desc: "Lake-area homes face unique wind exposure. We can help." },
-  { name: "Waterloo", desc: "Between Sun Prairie and our extended service area — easy for us to reach." },
+  { name: "Waterloo", desc: "Between Sun Prairie and our extended service area - easy for us to reach." },
   { name: "Cambridge", desc: "South of Sun Prairie and within our comfortable drive range." },
   { name: "Deerfield", desc: "Close to our core area. Happy to serve Deerfield homeowners." },
 ];

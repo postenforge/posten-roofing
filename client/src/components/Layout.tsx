@@ -39,7 +39,7 @@ function Header() {
           <img src={LOGO_URL} alt="Posten Roofing" className="h-18 lg:h-22 w-auto" />
         </Link>
 
-        {/* Desktop Nav + CTA — all to the right */}
+        {/* Desktop Nav + CTA - all to the right */}
         <nav className="hidden lg:flex items-center gap-7 ml-auto">
           {navLinks.map((item) =>
             item.children ? (

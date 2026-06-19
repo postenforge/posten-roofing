@@ -12,7 +12,7 @@ const allServices = [
   },
   {
     title: "Roof Repair",
-    desc: "Missing shingles, small leaks, flashing issues, and minor damage — fixed before they become expensive problems.",
+    desc: "Missing shingles, small leaks, flashing issues, and minor damage - fixed before they become expensive problems.",
     icon: Wrench,
     href: "/roof-repair",
   },
@@ -24,7 +24,7 @@ const allServices = [
   },
   {
     title: "Hail Damage",
-    desc: "Hail can bruise shingles, crack them, and strip granules — often without being visible from the ground. We know what to look for.",
+    desc: "Hail can bruise shingles, crack them, and strip granules - often without being visible from the ground. We know what to look for.",
     icon: CloudRain,
     href: "/storm-damage",
   },
@@ -42,7 +42,7 @@ const allServices = [
   },
   {
     title: "Insurance Claims Documentation",
-    desc: "We document visible damage with photos and provide a written scope/estimate. We can meet with your adjuster when appropriate. Your insurance company makes claim decisions — we just provide the evidence.",
+    desc: "We document visible damage with photos and provide a written scope/estimate. We can meet with your adjuster when appropriate. Your insurance company makes claim decisions - we just provide the evidence.",
     icon: FileCheck,
     href: "/services",
   },
@@ -67,7 +67,7 @@ export default function Services() {
           <p className="text-[oklch(0.65_0.14_60)] font-semibold text-sm uppercase tracking-wider mb-3">Our Services</p>
           <h1 className="text-4xl md:text-5xl text-white mb-4">Residential Roofing Services</h1>
           <p className="text-white/70 text-lg max-w-2xl">
-            From repairs to full replacements, storm damage inspections to insurance documentation — we handle residential roofing for Sun Prairie, Madison, and surrounding communities.
+            From repairs to full replacements, storm damage inspections to insurance documentation - we handle residential roofing for Sun Prairie, Madison, and surrounding communities.
           </p>
         </div>
       </section>

@@ -12,7 +12,7 @@ export default function RoofRepair() {
           <p className="text-[oklch(0.65_0.14_60)] font-semibold text-sm uppercase tracking-wider mb-3">Roof Repair</p>
           <h1 className="text-4xl md:text-5xl text-white mb-4">Fix It Before It Gets Worse</h1>
           <p className="text-white/70 text-lg max-w-2xl">
-            Not every roof issue means a full replacement. We repair what can be repaired — and we'll tell you honestly when it can't.
+            Not every roof issue means a full replacement. We repair what can be repaired - and we'll tell you honestly when it can't.
           </p>
         </div>
       </section>
@@ -66,10 +66,10 @@ export default function RoofRepair() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
             {[
               { icon: Wrench, title: "Shingle Replacement", desc: "Replace missing, cracked, or wind-damaged shingles to restore protection." },
-              { icon: Droplets, title: "Leak Repair", desc: "Track down the source of a leak and fix it — pipe boots, flashing, valleys, or penetrations." },
+              { icon: Droplets, title: "Leak Repair", desc: "Track down the source of a leak and fix it - pipe boots, flashing, valleys, or penetrations." },
               { icon: AlertTriangle, title: "Flashing Repair", desc: "Fix or replace flashing around chimneys, walls, skylights, and vents." },
               { icon: Wrench, title: "Ridge Cap Repair", desc: "Replace blown-off or damaged ridge cap shingles along the roof peak." },
-              { icon: Droplets, title: "Pipe Boot Repair", desc: "Replace cracked or deteriorated pipe boot seals — a very common leak source." },
+              { icon: Droplets, title: "Pipe Boot Repair", desc: "Replace cracked or deteriorated pipe boot seals - a very common leak source." },
               { icon: AlertTriangle, title: "Emergency Tarping", desc: "Temporary protection to prevent further water damage until permanent repair is possible." },
             ].map((item) => {
               const Icon = item.icon;
@@ -89,11 +89,11 @@ export default function RoofRepair() {
       <section className="py-20 bg-white">
         <div className="container max-w-3xl">
           <h2 className="text-3xl md:text-4xl text-center text-[oklch(0.20_0.015_250)] mb-8 gold-underline-center">
-            Repair vs. Replace — How We Help You Decide
+            Repair vs. Replace - How We Help You Decide
           </h2>
           <div className="space-y-6 text-muted-foreground text-lg leading-relaxed">
             <p>
-              We don't push replacement when repair makes sense. But we also won't patch a roof that's past its useful life just to save you money today — because that usually costs more in the long run.
+              We don't push replacement when repair makes sense. But we also won't patch a roof that's past its useful life just to save you money today - because that usually costs more in the long run.
             </p>
             <p>
               Here's our general approach: if the damage is localized, the surrounding shingles are in decent shape, and the roof has meaningful life left, repair is usually the right call. If the damage is widespread, the roof is aging, or we're seeing systemic issues (multiple leak points, widespread granule loss, soft decking), replacement may be the more practical path.

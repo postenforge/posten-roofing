@@ -67,7 +67,7 @@ function TriageTool() {
         {selected && (
           <div className="mt-8 max-w-2xl mx-auto text-center p-6 bg-muted/50 rounded-xl border border-border animate-in fade-in duration-300">
             <p className="text-foreground mb-4">
-              We can help. A free inspection will give you a clear picture of your roof's condition — no pressure, no obligation.
+              We can help. A free inspection will give you a clear picture of your roof's condition - no pressure, no obligation.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Link
@@ -249,7 +249,7 @@ export default function Home() {
               How It Works
             </h2>
             <p className="text-white/70 text-lg">
-              From first call to finished job — here's what to expect.
+              From first call to finished job - here's what to expect.
             </p>
           </div>
 
@@ -279,7 +279,7 @@ export default function Home() {
                 Worried a Roofer Will Just Try to Sell You a New Roof?
               </h2>
               <p className="text-muted-foreground text-lg mb-6 leading-relaxed">
-                We get it. Many homeowners delay calling because they don't want a high-pressure sales pitch. We start with the actual roof issue — what happened, what we can see, what it likely means, and whether repair, replacement, or monitoring is the practical next step.
+                We get it. Many homeowners delay calling because they don't want a high-pressure sales pitch. We start with the actual roof issue - what happened, what we can see, what it likely means, and whether repair, replacement, or monitoring is the practical next step.
               </p>
               <ul className="space-y-3 mb-8">
                 {[
@@ -332,7 +332,7 @@ export default function Home() {
                 <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-[oklch(0.65_0.14_60)] mt-0.5 shrink-0" /> Repair-first when appropriate</li>
                 <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-[oklch(0.65_0.14_60)] mt-0.5 shrink-0" /> Careful documentation, no promises</li>
                 <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-[oklch(0.65_0.14_60)] mt-0.5 shrink-0" /> Clear next steps you can understand</li>
-                <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-[oklch(0.65_0.14_60)] mt-0.5 shrink-0" /> Call, text, or form — your choice</li>
+                <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-[oklch(0.65_0.14_60)] mt-0.5 shrink-0" /> Call, text, or form - your choice</li>
               </ul>
             </div>
           </div>
@@ -384,7 +384,7 @@ export default function Home() {
             Built on a Family Roofing Background
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-            Posten Roofing is built on hands-on experience helping run a family roofing company. That background means we understand what good work looks like — from the initial inspection through final cleanup. We brought that same standard to Wisconsin.
+            Posten Roofing is built on hands-on experience helping run a family roofing company. That background means we understand what good work looks like - from the initial inspection through final cleanup. We brought that same standard to Wisconsin.
           </p>
           <Link
             href="/about"

@@ -23,7 +23,7 @@ export default function StormDamage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl text-[oklch(0.20_0.015_250)] mb-6 gold-underline">
-                After a Storm — What to Look For
+                After a Storm - What to Look For
               </h2>
               <p className="text-muted-foreground text-lg mb-6 leading-relaxed">
                 You don't need to climb on your roof. Here are ground-level signs that storm damage may have occurred:
@@ -119,7 +119,7 @@ export default function StormDamage() {
             {[
               { icon: Camera, title: "Inspect & Document", desc: "We get on the roof and document visible damage with photos. We note what we see, where it is, and what it likely means." },
               { icon: Shield, title: "Explain Your Options", desc: "We walk you through what we found. If the damage is minor, we'll tell you. If it warrants a claim, we'll explain that too." },
-              { icon: CheckCircle, title: "Support Your Claim (If Applicable)", desc: "If you file a claim, we can provide documentation and meet with your adjuster. Your insurance company makes all claim decisions — we just provide evidence." },
+              { icon: CheckCircle, title: "Support Your Claim (If Applicable)", desc: "If you file a claim, we can provide documentation and meet with your adjuster. Your insurance company makes all claim decisions - we just provide evidence." },
               { icon: AlertTriangle, title: "Complete the Work", desc: "Whether it's a targeted repair or a full replacement, we handle the work from start to finish with clean job sites and clear communication." },
             ].map((item) => {
               const Icon = item.icon;

@@ -68,7 +68,7 @@ export default function Contact() {
           <p className="text-[oklch(0.65_0.14_60)] font-semibold text-sm uppercase tracking-wider mb-3">Contact Us</p>
           <h1 className="text-4xl md:text-5xl text-white mb-4">Request a Free Roof Inspection</h1>
           <p className="text-white/70 text-lg max-w-2xl">
-            Tell us what's going on. We'll get back to you quickly with clear next steps — no pressure, no obligation.
+            Tell us what's going on. We'll get back to you quickly with clear next steps - no pressure, no obligation.
           </p>
         </div>
       </section>
@@ -184,7 +184,7 @@ export default function Contact() {
                       onChange={(e) => updateField("urgent", e.target.value)}
                       className="w-full px-4 py-2.5 border border-border rounded-md focus:ring-2 focus:ring-[oklch(0.65_0.14_60)] focus:border-transparent outline-none transition-all bg-white"
                     >
-                      <option value="">—</option>
+                      <option value="">-</option>
                       <option value="yes">Yes</option>
                       <option value="no">No</option>
                     </select>
@@ -196,7 +196,7 @@ export default function Contact() {
                       onChange={(e) => updateField("contactMethod", e.target.value)}
                       className="w-full px-4 py-2.5 border border-border rounded-md focus:ring-2 focus:ring-[oklch(0.65_0.14_60)] focus:border-transparent outline-none transition-all bg-white"
                     >
-                      <option value="">—</option>
+                      <option value="">-</option>
                       <option value="call">Call</option>
                       <option value="text">Text</option>
                       <option value="email">Email</option>
@@ -209,7 +209,7 @@ export default function Contact() {
                       onChange={(e) => updateField("timeOfDay", e.target.value)}
                       className="w-full px-4 py-2.5 border border-border rounded-md focus:ring-2 focus:ring-[oklch(0.65_0.14_60)] focus:border-transparent outline-none transition-all bg-white"
                     >
-                      <option value="">—</option>
+                      <option value="">-</option>
                       <option value="morning">Morning</option>
                       <option value="afternoon">Afternoon</option>
                       <option value="evening">Evening</option>

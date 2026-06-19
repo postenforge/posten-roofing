@@ -27,10 +27,10 @@ export default function About() {
               </h2>
               <div className="space-y-4 text-muted-foreground text-lg leading-relaxed">
                 <p>
-                  Matt Posten helped build and operate a family roofing company — learning the trade from the ground up. From climbing ladders to managing full replacement projects, that experience shaped how Posten Roofing operates today.
+                  Matt Posten helped build and operate a family roofing company - learning the trade from the ground up. From climbing ladders to managing full replacement projects, that experience shaped how Posten Roofing operates today.
                 </p>
                 <p>
-                  When it came time to bring that same approach to Wisconsin, the priority was simple: do honest work, communicate clearly, and treat every homeowner's roof like it matters — because it does.
+                  When it came time to bring that same approach to Wisconsin, the priority was simple: do honest work, communicate clearly, and treat every homeowner's roof like it matters - because it does.
                 </p>
                 <p>
                   Posten Roofing focuses on residential roofing in and around Sun Prairie and Madison. We handle repairs, replacements, storm damage inspections, and insurance documentation support. We don't cut corners, and we don't push services people don't need.
@@ -60,7 +60,7 @@ export default function About() {
               { title: "Honest Inspections", desc: "We document what we see with photos and explain it in plain language. If your roof is fine, we'll tell you." },
               { title: "Repair-First Mindset", desc: "Not every roof issue needs a full replacement. When repair makes sense, that's what we recommend." },
               { title: "Clear Communication", desc: "You'll know what's happening at every step. No ghosting, no runaround, no confusing jargon." },
-              { title: "Clean Job Sites", desc: "We pick up after ourselves — nails, debris, packaging, all of it. Your property should look better when we leave." },
+              { title: "Clean Job Sites", desc: "We pick up after ourselves - nails, debris, packaging, all of it. Your property should look better when we leave." },
               { title: "Family Background", desc: "Roofing isn't just a job we picked up. It's a trade we learned hands-on through a family business." },
               { title: "Local Accountability", desc: "We serve the communities around us. Our reputation here matters to us personally." },
             ].map((item) => (
