@@ -120,7 +120,7 @@ export default function About() {
               <img
                 src={DAUGHTER_DOG_IMG}
                 alt="Elaina Posten hiking with Maverick the Bernedoodle"
-                className="rounded-xl shadow-md w-full aspect-[4/3] object-cover object-top"
+                className="rounded-xl shadow-md w-full aspect-[4/3] object-cover object-[center_25%]"
               />
               <p className="text-sm text-muted-foreground mt-2 text-center">Elaina & Maverick</p>
             </div>
