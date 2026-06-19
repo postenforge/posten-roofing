@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "wouter";
 import { Phone, Menu, X, ChevronDown } from "lucide-react";
 
-const LOGO_URL = "/manus-storage/posten-logo-nobg_0aff8d52.png";
+const LOGO_URL = "/manus-storage/posten-logo-new_3cb74251.png";
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -20,16 +20,9 @@ const navLinks = [
 ];
 
 function Header() {
-  const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
   const [location] = useLocation();
-
-  useEffect(() => {
-    const handleScroll = () => setScrolled(window.scrollY > 20);
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
 
   useEffect(() => {
     setMobileOpen(false);
@@ -38,16 +31,12 @@ function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-200 ${
-        scrolled
-          ? "bg-white/95 backdrop-blur-md shadow-md"
-          : "bg-transparent"
-      }`}
+      className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md"
     >
       <div className="container flex items-center justify-between h-20 lg:h-24">
         {/* Logo */}
         <Link href="/" className="flex items-center">
-          <img src={LOGO_URL} alt="Posten Roofing" className="h-16 lg:h-20 w-auto" />
+          <img src={LOGO_URL} alt="Posten Roofing" className="h-18 lg:h-22 w-auto" />
         </Link>
 
         {/* Desktop Nav */}
@@ -56,9 +45,7 @@ function Header() {
             item.children ? (
               <div key={item.label} className="relative group">
                 <button
-                  className={`flex items-center gap-1 font-medium text-sm transition-colors ${
-                    scrolled ? "text-foreground hover:text-[oklch(0.65_0.14_60)]" : "text-white/90 hover:text-white"
-                  }`}
+                  className="flex items-center gap-1 font-medium text-sm transition-colors text-foreground hover:text-[oklch(0.65_0.14_60)]"
                 >
                   {item.label}
                   <ChevronDown className="w-3.5 h-3.5" />
@@ -81,9 +68,7 @@ function Header() {
               <Link
                 key={item.href}
                 href={item.href!}
-                className={`font-medium text-sm transition-colors ${
-                  scrolled ? "text-foreground hover:text-[oklch(0.65_0.14_60)]" : "text-white/90 hover:text-white"
-                }`}
+                className="font-medium text-sm transition-colors text-foreground hover:text-[oklch(0.65_0.14_60)]"
               >
                 {item.label}
               </Link>
@@ -95,9 +80,7 @@ function Header() {
         <div className="hidden lg:flex items-center gap-3">
           <a
             href="tel:+1XXXXXXXXXX"
-            className={`flex items-center gap-2 font-semibold text-sm ${
-              scrolled ? "text-foreground" : "text-white"
-            }`}
+            className="flex items-center gap-2 font-semibold text-sm text-foreground"
           >
             <Phone className="w-4 h-4" />
             (XXX) XXX-XXXX
@@ -113,7 +96,7 @@ function Header() {
         {/* Mobile Menu Button */}
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
-          className={`lg:hidden p-2 ${scrolled ? "text-foreground" : "text-white"}`}
+          className="lg:hidden p-2 text-foreground"
         >
           {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
         </button>
