@@ -9,6 +9,7 @@ export default function Contact() {
     lastName: "",
     phone: "",
     email: "",
+    address: "",
     city: "",
     zip: "",
     service: "",
@@ -135,9 +136,20 @@ export default function Contact() {
                   </div>
                 </div>
 
+                <div className="mb-6">
+                  <label className="block text-sm font-medium text-foreground mb-1.5">Property Address</label>
+                  <input
+                    type="text"
+                    value={formData.address}
+                    onChange={(e) => updateField("address", e.target.value)}
+                    placeholder="123 Main St"
+                    className="w-full px-4 py-2.5 border border-border rounded-md focus:ring-2 focus:ring-[oklch(0.65_0.14_60)] focus:border-transparent outline-none transition-all"
+                  />
+                </div>
+
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
                   <div>
-                    <label className="block text-sm font-medium text-foreground mb-1.5">Property City</label>
+                    <label className="block text-sm font-medium text-foreground mb-1.5">City</label>
                     <input
                       type="text"
                       value={formData.city}
