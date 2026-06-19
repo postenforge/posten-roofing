@@ -1,54 +1,79 @@
 import { Link } from "wouter";
-import { ArrowRight, CheckCircle } from "lucide-react";
+import { ArrowRight, CheckCircle, Heart } from "lucide-react";
 import SEO from "@/components/SEO";
 
-const INSPECTION_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663502408391/74KQnuSq8LqDRTPc7CwkAx/posten-inspection-UsK9uo47qb7LeJgt325783.webp";
+const PROFILE_IMG = "/manus-storage/profile-pic_9f76902a.jpg";
 
 export default function About() {
   return (
     <div>
       <SEO
-        title="About Posten Roofing | Family Roofing Background, Wisconsin Service"
-        description="Posten Roofing is built on hands-on experience from a family roofing company. We serve Sun Prairie, Madison, and Dane County with honest inspections and quality workmanship."
+        title="About Matt Posten | Posten Roofing - Sun Prairie & Madison, WI"
+        description="Meet Matt Posten - originally from Texas, raised in the family roofing business since 2003. Now serving Sun Prairie, Madison, and Dane County, Wisconsin with honest residential roofing."
         canonical="https://postenroofing.com/about"
       />
       {/* Hero */}
       <section className="bg-[oklch(0.20_0.015_250)] pt-28 pb-16">
         <div className="container">
-          <p className="text-[oklch(0.65_0.14_60)] font-semibold text-sm uppercase tracking-wider mb-3">About Us</p>
-          <h1 className="text-4xl md:text-5xl text-white mb-4">Family Roofing Background.<br />Wisconsin Service.</h1>
+          <p className="text-[oklch(0.65_0.14_60)] font-semibold text-sm uppercase tracking-wider mb-3">About</p>
+          <h1 className="text-4xl md:text-5xl text-white mb-4">Meet Matt Posten</h1>
           <p className="text-white/70 text-lg max-w-2xl">
-            Posten Roofing is a service-area residential roofing company serving Sun Prairie, Madison, Dane County, and nearby communities.
+            Roofing since 2003. Family man. Community-first.
           </p>
         </div>
       </section>
 
-      {/* Story */}
+      {/* Bio Section */}
       <section className="py-20 bg-white">
         <div className="container">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl md:text-4xl text-[oklch(0.20_0.015_250)] mb-6 gold-underline">
-                How We Got Here
-              </h2>
-              <div className="space-y-4 text-muted-foreground text-lg leading-relaxed">
-                <p>
-                  Matt Posten helped build and operate a family roofing company - learning the trade from the ground up. From climbing ladders to managing full replacement projects, that experience shaped how Posten Roofing operates today.
-                </p>
-                <p>
-                  When it came time to bring that same approach to Wisconsin, the priority was simple: do honest work, communicate clearly, and treat every homeowner's roof like it matters - because it does.
-                </p>
-                <p>
-                  Posten Roofing focuses on residential roofing in and around Sun Prairie and Madison. We handle repairs, replacements, storm damage inspections, and insurance documentation support. We don't cut corners, and we don't push services people don't need.
-                </p>
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 items-start">
+            {/* Photo */}
+            <div className="lg:col-span-2">
+              <div className="sticky top-28">
+                <img
+                  src={PROFILE_IMG}
+                  alt="Matt Posten, owner of Posten Roofing"
+                  className="rounded-xl shadow-lg w-full max-w-sm mx-auto lg:mx-0"
+                />
+                <div className="mt-6 text-center lg:text-left">
+                  <p className="font-bold text-xl text-[oklch(0.20_0.015_250)]">Matt Posten</p>
+                  <p className="text-muted-foreground">Owner, Posten Roofing</p>
+                </div>
               </div>
             </div>
-            <div>
-              <img
-                src={INSPECTION_IMG}
-                alt="Roofing professional conducting a thorough inspection"
-                className="rounded-xl shadow-lg w-full"
-              />
+
+            {/* Story */}
+            <div className="lg:col-span-3">
+              <h2 className="text-3xl md:text-4xl text-[oklch(0.20_0.015_250)] mb-6 gold-underline">
+                My Story
+              </h2>
+              <div className="space-y-5 text-muted-foreground text-lg leading-relaxed">
+                <p>
+                  I'm originally from Texas, where I grew up in my family's roofing and construction business - Above All Roofing & Construction. I've been around roofing since 2003. From climbing ladders as a teenager to managing full projects, this trade is in my blood.
+                </p>
+                <p>
+                  I married my wife Jennifer in 2008, and together we have two kids - Braden and Elaina. We also have a full house with three Bernedoodles (Ruthy, Bear, and Maverick) and a Bichon Frise named Coconut. Life is busy and we wouldn't have it any other way.
+                </p>
+                <p>
+                  Posten Roofing was created out of a passion for roofing and a desire to serve our community here in Wisconsin. After years of doing this work in Texas, I wanted to bring that same hands-on, honest approach to Sun Prairie and the Madison metro area.
+                </p>
+                <p>
+                  I believe in doing right by people. That means honest inspections, clear communication, and recommending repair when repair makes sense - not pushing a full replacement when you don't need one.
+                </p>
+              </div>
+
+              {/* Community Section */}
+              <div className="mt-12 p-6 bg-[oklch(0.97_0.005_80)] rounded-xl border border-[oklch(0.65_0.14_60)]/20">
+                <div className="flex items-start gap-4">
+                  <Heart className="w-8 h-8 text-[oklch(0.65_0.14_60)] shrink-0 mt-1" />
+                  <div>
+                    <h3 className="font-bold text-xl text-[oklch(0.20_0.015_250)] mb-2">Giving Back</h3>
+                    <p className="text-muted-foreground text-lg leading-relaxed">
+                      A portion of Posten Roofing's proceeds will be used to provide humanitarian services to those in need in our local community. This business isn't just about roofs - it's about building something that makes a difference where we live.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -58,17 +83,17 @@ export default function About() {
       <section className="py-20 bg-muted/30">
         <div className="container max-w-4xl">
           <h2 className="text-3xl md:text-4xl text-center text-[oklch(0.20_0.015_250)] mb-12 gold-underline-center">
-            What We Stand For
+            How I Run This Business
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {[
-              { title: "Honest Inspections", desc: "We document what we see with photos and explain it in plain language. If your roof is fine, we'll tell you." },
-              { title: "Repair-First Mindset", desc: "Not every roof issue needs a full replacement. When repair makes sense, that's what we recommend." },
+              { title: "Honest Inspections", desc: "I document what I see with photos and explain it in plain language. If your roof is fine, I'll tell you." },
+              { title: "Repair-First Mindset", desc: "Not every roof issue needs a full replacement. When repair makes sense, that's what I recommend." },
               { title: "Clear Communication", desc: "You'll know what's happening at every step. No ghosting, no runaround, no confusing jargon." },
               { title: "Clean Job Sites", desc: "We pick up after ourselves - nails, debris, packaging, all of it. Your property should look better when we leave." },
-              { title: "Family Background", desc: "Roofing isn't just a job we picked up. It's a trade we learned hands-on through a family business." },
-              { title: "Local Accountability", desc: "We serve the communities around us. Our reputation here matters to us personally." },
+              { title: "20+ Years of Experience", desc: "I've been around roofing since 2003. This isn't something I picked up recently - it's a trade I grew up in." },
+              { title: "Local Accountability", desc: "I live here. My family lives here. Our reputation in this community matters to us personally." },
             ].map((item) => (
               <div key={item.title} className="flex gap-4">
                 <CheckCircle className="w-6 h-6 text-[oklch(0.65_0.14_60)] shrink-0 mt-1" />
@@ -87,7 +112,7 @@ export default function About() {
         <div className="container text-center">
           <h2 className="text-3xl text-white mb-4">Want to Talk About Your Roof?</h2>
           <p className="text-white/80 text-lg mb-8 max-w-xl mx-auto">
-            We're happy to answer questions, schedule a free inspection, or just point you in the right direction.
+            I'm happy to answer questions, schedule a free inspection, or just point you in the right direction.
           </p>
           <Link
             href="/contact"
