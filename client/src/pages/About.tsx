@@ -97,12 +97,12 @@ export default function About() {
 
           {/* Photo Grid */}
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-5xl mx-auto">
-            {/* Large couple photo */}
-            <div className="col-span-2 md:col-span-1 md:row-span-2">
+            {/* Couple photo */}
+            <div>
               <img
                 src={COUPLE_IMG}
                 alt="Matt and Jennifer Posten"
-                className="rounded-xl shadow-md w-full h-full object-cover"
+                className="rounded-xl shadow-md w-full h-64 object-cover object-top"
               />
               <p className="text-sm text-muted-foreground mt-2 text-center">Matt & Jennifer Posten</p>
             </div>
