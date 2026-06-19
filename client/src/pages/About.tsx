@@ -2,13 +2,13 @@ import { Link } from "wouter";
 import { ArrowRight, CheckCircle, Heart } from "lucide-react";
 import SEO from "@/components/SEO";
 
-const PROFILE_IMG = "/manus-storage/profile-pic_9f76902a.jpg";
-const COUPLE_IMG = "/manus-storage/couple-cropped_5bb5b62b.jpg";
-const SON_IMG = "/manus-storage/family-son_a61fab77.jpg";
-const DAUGHTER_DOG_IMG = "/manus-storage/elaina-maverick-cropped_5b7d3ae7.jpg";
-const COCONUT_IMG = "/manus-storage/family-dog1_a3c2e8ce.jpg";
-const RUTHY_IMG = "/manus-storage/family-dog2_73b9b218.jpg";
-const BEAR_IMG = "/manus-storage/family-bear-cropped_b5ae18c8.jpg";
+const PROFILE_IMG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663502408391/aXhwMsFOezhpFGRO.jpg";
+const COUPLE_IMG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663502408391/mvJPZIWQiVrigBWk.jpg";
+const SON_IMG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663502408391/pnXUcSNwNUvcMymk.jpg";
+const DAUGHTER_DOG_IMG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663502408391/XStxnSspzbtSegfN.jpg";
+const COCONUT_IMG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663502408391/mwRXEFkDaauFHXLP.jpg";
+const RUTHY_IMG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663502408391/VbYwBQphxnXVMljg.jpg";
+const BEAR_IMG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663502408391/GbJnMlquzzkSMwXC.jpg";
 
 export default function About() {
   return (
