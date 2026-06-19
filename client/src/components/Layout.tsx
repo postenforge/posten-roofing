@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "wouter";
 import { Phone, Menu, X, ChevronDown } from "lucide-react";
 
-const LOGO_URL = "/manus-storage/posten-logo-gray-final_31998d35.png";
+const LOGO_URL = "/manus-storage/posten-logo-gray-v2_5f2577a8.png";
 
 const navLinks = [
   { href: "/", label: "Home" },
