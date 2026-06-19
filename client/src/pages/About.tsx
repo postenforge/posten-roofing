@@ -55,7 +55,7 @@ export default function About() {
               </h2>
               <div className="space-y-5 text-muted-foreground text-lg leading-relaxed">
                 <p>
-                  I'm originally from Texas, where I grew up in my family's roofing and construction business - Above All Roofing & Construction. I've been around roofing since 2003. From climbing ladders as a teenager to managing full projects, this trade is in my blood.
+                  I'm originally from Texas, where I grew up working alongside my dad, Larry Posten, in his roofing and construction company - Above All Roofing & Construction. I've been around roofing since 2003. From climbing ladders as a teenager to managing full projects with my dad, this trade is in my blood.
                 </p>
                 <p>
                   I married my wife Jennifer in 2008, and together we have two kids - Braden and Elaina. We also have a full house with three Bernedoodles (Ruthy, Bear, and Maverick) and a Bichon Frise named Coconut. Life is busy and we wouldn't have it any other way.
